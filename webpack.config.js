@@ -60,10 +60,6 @@ module.exports = {
             {
                 test: /\.csv/,
                 use: ['csv-loader']
-            },
-            {
-                test: /\.scss/,
-                use: ['csv-loader']
             }
 
         ]
